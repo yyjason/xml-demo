@@ -13,7 +13,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <spring-boot.version>2.6.7</spring-boot.version>
         <spring-native.version>0.11.5</spring-native.version>
-        <mainClass></mainClass>
+        <mainClass>com.example.XmlApp</mainClass>
         <repackage.classifier/>
         <builder>paketobuildpacks/builder:tiny</builder>
         <native.buildtools.version>0.9.11</native.buildtools.version>
