@@ -1,0 +1,4 @@
+#
+#Mon Jun 13 16:36:24 CST 2022
+com.example.xml.XmlReader=org.springframework.stereotype.Component
+com.example.XmlApp=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration

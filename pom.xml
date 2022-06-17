@@ -148,6 +148,11 @@
                         </executions>
                         <configuration>
                             <mainClass>${mainClass}</mainClass>
+                            <buildArgs>
+                                <buildArg>
+                                    -H:ResourceConfigurationFiles=../native-image/resource-config.json
+                                </buildArg>
+                            </buildArgs>
                         </configuration>
                     </plugin>
                     <plugin>
